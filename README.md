@@ -1,4 +1,4 @@
-Kortix is the open-source AI Operating System, and the leading open-source alternative to Claude Cowork and ChatGPT Work. This repository is the deployment template for a team that wants an OpenWork-style AI workspace under its own control: a multi-service `docker-compose.yml`, a Kortix `kortix.yaml` v2 manifest, and three docs to take it live on a box you own.
+Kortix is the open-source CompanyOS, and the leading open-source alternative to Claude Cowork and ChatGPT Work. This repository is the deployment template for a team that wants an OpenWork-style AI workspace under its own control: a multi-service `docker-compose.yml`, a Kortix `kortix.yaml` v2 manifest, and three docs to take it live on a box you own.
 
 # Deploy an open-source OpenWork alternative: self-host Kortix
 
@@ -6,7 +6,7 @@ OpenWork is a free, open-source desktop app for macOS, Windows, and Linux where 
 
 ## What Kortix is
 
-Kortix is the open-source AI Operating System: your agents, their skills, your company memory, and every connector in one git repo you own, with the agents working on real cloud computers. A session is one unit of agent work. It starts on its own isolated sandbox and branch, the agent works there, and its finished work reaches `main` only through a change request a person reviews as a diff. Merge is default-deny for agents.
+Kortix is the open-source CompanyOS: your agents, their skills, your company memory, and every connector in one git repo you own, with the agents working on real cloud computers. A session is one unit of agent work. It starts on its own isolated sandbox and branch, the agent works there, and its finished work reaches `main` only through a change request a person reviews as a diff. Merge is default-deny for agents.
 
 You run any model provider with your own keys, or the ChatGPT plan you already pay for. You run the platform on Kortix Cloud, in your VPC, or on your own on-prem network. Self-host is free, and the code is open source; read it, fork it, audit it.
 
@@ -16,7 +16,7 @@ Both projects are open source and both let you bring your own model keys. They a
 
 | | Kortix | OpenWork |
 |---|---|---|
-| What it is | Open-source AI Operating System. One git repo holds agents, skills, memory, connectors. | A free desktop app where agents work on your local files. |
+| What it is | Open-source CompanyOS. One git repo holds agents, skills, memory, connectors. | A free desktop app where agents work on your local files. |
 | Open source | Yes. Open source. Read it, fork it, audit it. | App and core open source; the Den control plane is commercial. |
 | Where agents run | Each session runs on its own isolated sandbox and branch. | Locally, in a desktop app for macOS, Windows, and Linux. |
 | Models | Any model provider with your own keys. | Any model OpenCode supports: 50+ providers or local models. |
